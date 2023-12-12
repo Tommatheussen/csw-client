@@ -563,7 +563,7 @@ export class CswClient {
   private _Constraint(filter: any) {
     return {
       TYPE_NAME: `${DEFAULT_MAPPED_SCHEMA_VERSIONS_OBJECTS.CSW}.QueryConstraintType`,
-      version: CSW_VERSION,
+      version: "1.1.0",
       filter: filter,
     };
   }
